@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\Shild\\\\Downloads\\\\CustomCRM\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('name',''\\)\\); print\\(list\\(d.get\\('require',{}\\).keys\\(\\)\\)[:15]\\)\")",
+      "Bash(php --version)",
+      "Read(//c/Users/Shild/Downloads/CustomCRM/**)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('scripts',{}\\)\\)\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Shild\\Downloads\\CustomCRM\\app"
+    ]
+  }
+}
