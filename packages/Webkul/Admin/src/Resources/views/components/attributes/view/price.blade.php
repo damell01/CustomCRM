@@ -9,6 +9,4 @@
     ::errors="errors"
     :url="$url"
     :allow-edit="$allowEdit"
-    ::value-label="'{{ core()->formatBasePrice($value, 2) }}'"
-    ::value-formatter="(value) => value === '' || value === null || Number.isNaN(Number(value)) ? '' : $admin.formatPrice(Number(value))"
 />
